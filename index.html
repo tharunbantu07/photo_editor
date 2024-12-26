@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>photo editor app</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Photo Editor</h1>
+  <div class="container disabled">
+    <div class="first-box">
+      <div class="view_upload_container">
+        <div class="view_img">
+          <img src="data:image/png;base64,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" alt="" />
+        </div>
+        <div class="choose_img">
+          <button>Upload<img src="images/upload.png" alt="insert here" /></button>
+          <input type="file" name="" id="" accept="image/*" hidden />
+        </div>
+      </div>
+
+    </div>
+
+    <div class="second-box">
+
+      <div class="slider">
+        <div class="filter_info">
+          <span class="name">brightness</span>
+          <span class="value">100%</span>
+        </div>
+        <input type="range" name="" id="" max="200" min="0" value="100" />
+      </div>
+  
+      <div class="icons_filter_main">
+        <p>Filters</p>
+        <div class="icons_room">
+          <button title="brightness" id="brightness" class="active">
+            <img src="images/brightnss.png" alt="" />
+          </button>
+          <button title="contrast" id="contrast">
+            <img src="images/contrast.png" alt="" />
+          </button>
+          <button title="saturate" id="saturate">
+            <img src="images/saturate.png" alt="" />
+          </button>
+          <button title="invert" id="invert">
+            <img src="images/invert.png" alt="" />
+          </button>
+          <button title="blur" id="blur">
+            <img src="images/blur.png" alt="" />
+          </button>
+        </div>
+      </div>
+  
+      <div class="rotate_flip_container">
+        <div class="icons_filter">
+          <p>Rotate</p>
+          <div class="icons_room1">
+            <button title="rotate_left" id="rotate_left"><img src="images/rotateleft.png" alt="" /></button>
+            <button title="rotate_right" id="rotate_right"><img src="images/rotateright (1).png" alt="" /></button>
+          </div>
+        </div>
+  
+        <div class="icons_filter">
+          <p>Flip</p>
+          <div class="icons_room1">
+            <button title="flip_side" id="flip_x"><img src="images/flip.png" alt="" /></button>
+            <button title="flip_up" id="flip_y"><img src="images/flip.png" alt="" /></button>
+          </div>
+        </div>
+      </div> 
+      <div class="btn_contain">
+        <button class="reset">reset</button>
+        <button class="save">save image</button>
+      </div> 
+    </div>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
